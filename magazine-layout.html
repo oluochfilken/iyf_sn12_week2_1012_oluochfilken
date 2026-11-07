@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Magazine Layout</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Tech Magazine</a>
+      <nav class="practice-nav" aria-label="Magazine navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="magazine-layout.html">Magazine</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">Technology Magazine</h1>
+
+    <div class="magazine-grid">
+      <article class="magazine-feature">
+        <p class="muted">FEATURED ARTICLE</p>
+        <h2>The Future of Web Development</h2>
+        <p>
+          Web development continues to change as new technologies,
+          tools and techniques become available.
+        </p>
+        <p>
+          Developers use HTML to structure pages, CSS to create layouts
+          and JavaScript to build interactive experiences.
+        </p>
+      </article>
+
+      <aside>
+        <article class="card">
+          <h2>Artificial Intelligence</h2>
+          <p>AI is changing how people interact with technology.</p>
+        </article>
+
+        <article class="card" style="margin-top: 16px;">
+          <h2>Learning CSS</h2>
+          <p>Responsive design makes websites work across devices.</p>
+        </article>
+
+        <article class="card magazine-story".
+          <h2>Developer Tools</h2>
+          <p>Modern tools help developers build and test websites.</p>
+        </article>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Tech Magazine</p>
+  </footer>
+  
+</body>
+</html>

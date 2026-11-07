@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">My Portfolio</a>
+      <nav class="practice-nav" aria-label="Practice navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="box-model-practice.html">Box Model</a></li>
+          <li><a href="flexbox-practice.html">Flexbox</a></li>
+          <li><a href="grid-gallery.html">Grid</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">CSS Grid Gallery</h1>
+    <p>CSS Grid allows us to create two-dimensional layouts using rows and columns.</p>
+
+    <section class="section gallery-grid" aria-label="Grid gallery">
+      <div class="gallery-item">HTML</div>
+      <div class="gallery-item">CSS</div>
+      <div class="gallery-item">JavaScript</div>
+      <div class="gallery-item">Python</div>
+      <div class="gallery-item">Git</div>
+      <div class="gallery-item">GitHub</div>
+    </section>
+
+    <section class="card">
+      <h2>Grid Properties</h2>
+      <ul>
+        <li>display: grid</li>
+        <li>grid-template-columns</li>
+        <li>grid-template-rows</li>
+        <li>gap</li>
+        <li>grid-column</li>
+        <li>grid-row</li>
+      </ul>
+      <pre><code>.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}</code></pre>
+    </section>
+
+    <p class="section">
+      Complete the 28 levels of Grid Garden:
+      <a href="https://cssgridgarden.com/" target="_blank" rel="noopener noreferrer">Grid Garden</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Oluoch Filken</p>
+  </footer>
+</body>
+</html>

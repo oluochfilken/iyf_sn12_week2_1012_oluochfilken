@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 4 - Contact Form Styling</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <main class="container section">
+    <section class="challenge-card">
+      <h1>Day 4: Styled Contact Form</h1>
+      <p>Practising labels, input styling, focus states and validation.</p>
+
+      <form class="contact-form" action="#" method="post">
+        <div>
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" name="full-name"
+                 placeholder="Your name" required minlength="2">
+        </div>
+
+        <div>
+          <label for="email-address">Email Address</label>
+          <input type="email" id="email-address" name="email"
+                 placeholder="you@example.com" required>
+        </div>
+
+        <div>
+          <label for="category">Message Category</label>
+          <select id="category" name="category" required>
+            <option value="">Choose a category</option>
+            <option value="question">General Question</option>
+            <option value="feedback">Feedback</option>
+            <option value="collaboration">Collaboration</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="your-message">Your Message</label>
+          <textarea id="your-message" name="message"
+                    placeholder="Write your message..." required minlength="10"></textarea>
+        </div>
+
+        <button class="btn btn-primary" type="submit">Submit Message</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

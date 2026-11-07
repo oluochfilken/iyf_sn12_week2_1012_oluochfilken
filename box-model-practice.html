@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Box Model Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">My Portfolio</a>
+      <nav class="practice-nav" aria-label="Practice navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="box-model-practice.html">Box Model</a></li>
+          <li><a href="flexbox-practice.html">Flexbox</a></li>
+          <li><a href="grid-gallery.html">Grid</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">CSS Box Model Practice</h1>
+    <p>Every HTML element is displayed as a rectangular box.</p>
+
+    <section class="card">
+      <h2>The Four Parts of the Box Model</h2>
+      <ol>
+        <li><strong>Content:</strong> The text or image inside an element.</li>
+        <li><strong>Padding:</strong> Space between content and border.</li>
+        <li><strong>Border:</strong> The line surrounding the padding and content.</li>
+        <li><strong>Margin:</strong> Space outside the border.</li>
+      </ol>
+    </section>
+
+    <section class="section">
+      <h2>Box Model Demonstration</h2>
+      <div class="box-model-card">
+        <h3>My CSS Box</h3>
+        <p>This element demonstrates content, padding, border and margin.</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Box Sizing</h2>
+      <p>
+        The CSS property box-sizing: border-box makes an element's declared
+        width include its padding and border.
+      </p>
+      <pre><code>* {
+  box-sizing: border-box;
+}</code></pre>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Oluoch Filken</p>
+  </footer>
+</body>
+</html>

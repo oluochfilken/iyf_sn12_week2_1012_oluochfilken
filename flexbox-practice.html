@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">My Portfolio</a>
+      <nav class="practice-nav" aria-label="Practice navigation">
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="box-model-practice.html">Box Model</a></li>
+          <li><a href="flexbox-practice.html">Flexbox</a></li>
+          <li><a href="grid-gallery.html">Grid</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section">
+    <h1 class="section-title">CSS Flexbox Practice</h1>
+
+    <section class="card">
+      <h2>What is Flexbox?</h2>
+      <p>
+        Flexbox is a CSS layout system used to arrange elements in a row
+        or column and control their alignment and spacing.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Flexbox Demonstration</h2>
+      <div class="flex-demo">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Important Flexbox Properties</h2>
+      <ul>
+        <li>display: flex</li>
+        <li>flex-direction</li>
+        <li>justify-content</li>
+        <li>align-items</li>
+        <li>flex-wrap</li>
+        <li>gap</li>
+      </ul>
+      <pre><code>.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}</code></pre>
+    </section>
+
+    <p class="section">
+      Practice the 24 levels of Flexbox Froggy:
+      <a href="https://flexboxfroggy.com/" target="_blank" rel="noopener noreferrer">Flexbox Froggy</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Oluoch Filken</p>
+  </footer>
+</body>
+</html>
